@@ -14,7 +14,7 @@ del miniconda.exe
 ```
 conda create -n ai-project python=3.12.0
 conda activate ai-project
-python -m pip install -r src/requirements.txt
+python3 -m pip install -r src/requirements.txt
 ```
 
 ## Install docker
