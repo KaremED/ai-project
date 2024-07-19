@@ -4,4 +4,6 @@ COPY src /runtime
 
 WORKDIR /runtime
 
-CMD ['main.py']
+RUN pip install -r requirements.txt
+
+CMD ["./main.py"]
